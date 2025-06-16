@@ -29,9 +29,17 @@ This project demonstrates a complete NoSQL workflow from Database creation and s
 
 ## Project Workflow
 
-### Step 1: Database Design & Data Collections
-- Created a MongoDB database named `eduhub_db` using **MongoDB Compass**.
-- Defined and created the following collections:
+### Step 1: Connecting with PyMongo
+Connected using the following connection string:
+```python
+from pymongo import MongoClient
+client = MongoClient('mongodb://localhost:27017/')
+# Create and use the database
+db = client['eduhub_db']
+```
+
+### Step 2: Database Design & Data Collections
+- Created and designed the following collections with schemas:
   - users
   - courses
   - lessons
@@ -39,19 +47,11 @@ This project demonstrates a complete NoSQL workflow from Database creation and s
   - submissions
   - enrollments
 
-### Step 2: Connecting with PyMongo
-Connected using the following connection string:
-```python
-from pymongo import MongoClient
-client = MongoClient("mongodb://localhost:27017/")
-db = client["eduhub_db"]
-```
-
 ### Step 3: Data Insertion
 - Created and inserted sample data into all collections.
 - Populated:
   - Users (students and instructors)
-  - Courses with metadata
+  - Courses
   - Enrollments
   - Lessons
   - Assignments and submissions
