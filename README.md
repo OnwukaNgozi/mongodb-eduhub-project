@@ -39,7 +39,7 @@ db = client['eduhub_db']
 ```
 
 ### Step 2: Database Design & Data Collections
-- Created and designed the following collections with schemas:
+- Created and designed the following collections with schema:
   - users
   - courses
   - lessons
