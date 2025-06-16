@@ -12,6 +12,18 @@ This project demonstrates a complete NoSQL workflow from Database creation and s
 - CRUD operations
 - Advanced querying and filtering
 - Aggregation pipelines
+- Query Optimization
+
+---
+
+## Built With
+
+| Tool            | Purpose                         |
+|-----------------|---------------------------------|
+| MongoDB         | NoSQL database                  |
+| MongoDB Compass | GUI for database management     |
+| PyMongo         | Python-MongoDB driver           |
+| Python          | Scripting language              |
 
 ---
 
@@ -62,7 +74,7 @@ Queried for:
 - Course details with instructor info
 - All courses by category
 - Students enrolled in a specific course
-- Courses using title (partial match)
+- Courses using title _(partial match)_
 
 #### Update Operations
 - Updated a user's profile information
@@ -80,7 +92,7 @@ Deleted:
 Filtered:
 - Courses within a price range
 - Users by registration date range
-- Courses with specific tags using $in operator
+- Courses with specific tags using _$in operator_
 - Assignments with specific due dates
 
 ### Step 7: Aggregation Pipelines
@@ -90,15 +102,4 @@ Created aggregation pipelines for:
 - Instructor course/activity summary
 
 ### Step 8: Query Optimization
-- Identified slow queries using `.explain()`
-
----
-
-## Tools Used
-
-| Tool            | Purpose                         |
-|-----------------|---------------------------------|
-| MongoDB         | NoSQL database                  |
-| MongoDB Compass | GUI for database management     |
-| PyMongo         | Python-MongoDB driver           |
-| Python          | Scripting language              |
+- Identified slow queries using _.explain()_
