@@ -1,4 +1,4 @@
-### MongoDB Project
+# MongoDB Project
 
 This project demonstrates a complete NoSQL workflow from Database creation and schema design, to data insertion, indexing, manipulations, aggregations and optimization - using **MongoDB Compass** and **PyMongo** in Python.
 
@@ -15,7 +15,7 @@ This project demonstrates a complete NoSQL workflow from Database creation and s
 
 ---
 
-### Project Workflow
+## Project Workflow
 
 ### Step 1: Database Design & Data Collections
 - Created a MongoDB database named `eduhub_db` using **MongoDB Compass**.
@@ -50,13 +50,13 @@ Created indexes to improve performance and avoid duplicates:
  
 ### Step 5: The Basic CRUD Operations
 
-### Create Operations
+#### Create Operations
 - Added a new user
 - Created a new course
 - Enrolled a new student
 - Added a new lesson to an existing course
 
-### Read Operations
+#### Read Operations
 Queried for:
 - All active students
 - Course details with instructor info
@@ -64,13 +64,13 @@ Queried for:
 - Students enrolled in a specific course
 - Courses using title (partial match)
 
-### Update Operations
+#### Update Operations
 - Updated a user's profile information
 - Marked courses as published
 - Updated assignment grades
 - Added tags to an existing course
 
-### Delete Operations
+#### Delete Operations
 Deleted:
 - A user by setting isActive to false
 - An enrollment record
@@ -94,7 +94,7 @@ Created aggregation pipelines for:
 
 ---
 
-### Tools Used
+## Tools Used
 
 | Tool            | Purpose                         |
 |-----------------|---------------------------------|
