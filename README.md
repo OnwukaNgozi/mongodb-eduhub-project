@@ -94,7 +94,7 @@ Created aggregation pipelines for:
 
 ---
 
-## 🛠 Tools Used
+### Tools Used
 
 | Tool            | Purpose                         |
 |-----------------|---------------------------------|
