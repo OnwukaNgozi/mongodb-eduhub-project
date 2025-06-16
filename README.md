@@ -17,15 +17,15 @@ This project demonstrates a complete NoSQL workflow from Database creation and s
 
 ### Project Workflow
 
-### Step 1: Database & Collections Setup
+### Step 1: Database Design & Data Collections
 - Created a MongoDB database named `eduhub_db` using **MongoDB Compass**.
 - Defined and created the following collections:
-  - `users`
-  - `courses`
-  - `lessons`
-  - `assignments`
-  - `submissions`
-  - `enrollments`
+  - users
+  - courses
+  - lessons
+  - assignments
+  - submissions
+  - enrollments
 
 ### Step 2: Connecting with PyMongo
 Connected using the following connection string:
