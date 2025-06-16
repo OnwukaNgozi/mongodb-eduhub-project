@@ -8,12 +8,7 @@ from bson import ObjectId
 # Connect to MongoDB
 client = MongoClient('mongodb://localhost:27017/')
 
-uri = 'mongodb+srv://emelda:ngozi%4010@alt-cluster.pgic5xp.mongodb.net/?retryWrites=true&w=majority'
-
-# Connect to MongoDB Atlas
-client = MongoClient(uri)
-
-# Use or create the database
+# Create and use the database
 db = client['eduhub_db']
 
 #%%
