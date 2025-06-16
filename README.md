@@ -21,6 +21,7 @@ This project demonstrates a complete NoSQL workflow from Database creation and s
 | Tool            | Purpose                         |
 |:----------------|--------------------------------:|
 | MongoDB         | NoSQL database                  |
+|-----------------|---------------------------------|
 | MongoDB Compass | GUI for database management     |
 | PyMongo         | Python-MongoDB driver           |
 | Python          | Scripting language              |
