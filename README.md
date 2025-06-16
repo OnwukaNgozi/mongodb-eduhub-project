@@ -44,7 +44,7 @@ Connected using the following connection string:
 ```python
 from pymongo import MongoClient
 client = MongoClient("mongodb://localhost:27017/")
-db = client["eduhub_db"]
+db = client["eduhub_db"];
 ```
 ```javascript I'm A tab
 console.log('Code Tab A');
